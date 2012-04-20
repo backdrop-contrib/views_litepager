@@ -5,7 +5,7 @@
  */
 
 /**
- * Implementation of hook_views_plugins
+ * Implements hook_views_plugins().
  */
 function views_litepager_views_plugins() {
   $plugins = array(

@@ -16,7 +16,7 @@ Installation
 
 1. Download the module, unzip the source, and put the resulting directory into the 
    modules/ directory of your Drupal application.
-2. Enable the module in Drupal at Administer > Site Building > Modules > Views
+2. Enable the module in Drupal at Administer > Modules > Views
 
 Usage
 =====

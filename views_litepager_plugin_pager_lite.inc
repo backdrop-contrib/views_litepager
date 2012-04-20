@@ -47,7 +47,10 @@ class views_litepager_plugin_pager_lite extends views_plugin_pager_full {
     }
     else {
       $pager_theme = views_theme_functions('pager_lite', $this->view, $this->display);
-      return theme($pager_theme, $input, $this->options['items_per_page'], $this->options['id']);
+
+      $output = theme($pager_theme, array(
+        'parameters' => $input, 'element' => $this->options['id']));
+      return $output;
     }
   }
 }
