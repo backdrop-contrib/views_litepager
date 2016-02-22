@@ -1,7 +1,10 @@
 <?php
+
 /**
  * @file
  * Views Pager plugin definition
+ *
+ * @ingroup views_module_handlers
  */
 
 /**
