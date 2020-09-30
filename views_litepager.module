@@ -78,7 +78,7 @@ function theme_pager_lite($variables) {
     'items' => $items,
     'title' => NULL,
     'type' => 'ul',
-    'attributes' => array('class' => array('pager')),
+    'attributes' => array('class' => array('pager', 'pager-lite')),
     )
   );
 }
