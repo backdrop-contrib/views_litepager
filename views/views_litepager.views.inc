@@ -26,4 +26,3 @@ function views_litepager_views_plugins() {
 
   return $plugins;
 }
-
