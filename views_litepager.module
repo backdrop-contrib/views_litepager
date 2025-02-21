@@ -102,6 +102,13 @@ function theme_pager_lite($variables) {
   ));
 }
 
+/**
+ * Process variables for the pager lite.
+ */
+function template_preprocess_pager_lite(&$variables) {
+  backdrop_add_css(backdrop_get_path('module', 'views_litepager') . '/css/views_litepager.css');
+}
+
 function theme_pager_lite_next($variables) {
   $text = $variables['text'];
   $element = $variables['element'];

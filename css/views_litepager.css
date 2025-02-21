@@ -1,0 +1,9 @@
+/**
+ * @file
+ * CSS
+ */
+
+.pager-lite .pager-previous-empty,
+.pager-lite .pager-next-empty {
+  padding: 0;
+}
